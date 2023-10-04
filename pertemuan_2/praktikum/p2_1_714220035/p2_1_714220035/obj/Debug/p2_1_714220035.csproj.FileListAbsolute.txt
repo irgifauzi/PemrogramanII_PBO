@@ -1,0 +1,7 @@
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_2\praktikum\p2_1_714220035\p2_1_714220035\bin\Debug\p2_1_714220035.exe.config
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_2\praktikum\p2_1_714220035\p2_1_714220035\bin\Debug\p2_1_714220035.exe
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_2\praktikum\p2_1_714220035\p2_1_714220035\bin\Debug\p2_1_714220035.pdb
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_2\praktikum\p2_1_714220035\p2_1_714220035\obj\Debug\p2_1_714220035.csproj.AssemblyReference.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_2\praktikum\p2_1_714220035\p2_1_714220035\obj\Debug\p2_1_714220035.csproj.CoreCompileInputs.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_2\praktikum\p2_1_714220035\p2_1_714220035\obj\Debug\p2_1_714220035.exe
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_2\praktikum\p2_1_714220035\p2_1_714220035\obj\Debug\p2_1_714220035.pdb
