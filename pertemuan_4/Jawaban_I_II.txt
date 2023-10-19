@@ -1,0 +1,33 @@
+Praktikum 1
+
+14.Jelaskan mengapa pesan kesalahan tersebut muncul! (Jangan lanjut ke tahap selanjutnya
+jika tahap ke-14 ini masih error).
+
+jawab 
+karena pada class Product_714220035 Acces Modifiernya memakai protected yang tidak bisa di akses pada class lain
+
+19.Perhatikan hasil yang muncul dilayar, kenapa bisa seperti itu?
+
+jawab
+karena pada class productTest tidak mempunyai variabel untuk menanggung nilai
+
+
+24. Jelaskan mengapa yang muncul dilayar adalah kata tersebut!
+
+jawab
+karena sekarang sudah dimasukan variabel myProduk.MyType = "DVD"; dan akan mencetak DVD
+
+Bagian II
+
+8. Jelaskan mengapa title dari buku tersebut tidak muncul! Apakah istilah dalam konsep OOP yang mendefinisikan fenomena seperti ini ?
+
+Jawabanya
+Karena myTitle sudah digunakan pada class Product dan myTitle nya belum dijadikan turunan class pada class book
+
+12. Perhatikan hasil yang muncul dilayar, jelaskan mengapa saat ini judul buku tampil pada
+output!
+
+Jawabanya
+karena pada  public Book_714220035(string type, string title, string pagecount) ditambahkan kode : base(type,title) yang menjadi turunan
+
+
