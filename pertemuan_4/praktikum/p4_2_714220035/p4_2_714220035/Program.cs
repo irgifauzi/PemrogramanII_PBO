@@ -31,7 +31,7 @@ namespace p4_2_714220035
             Console.WriteLine("FieldProperty");
             Toko D = new Toko();
             D.jenis = "perkakas";
-            D.Harga_barang = 20000;
+            D.Harga_barang = 99;
             Console.WriteLine("Barang");
             Console.WriteLine("jenis: {0}", D.jenis);
             Console.WriteLine("harga_barang: {0}", D.Harga_barang);
@@ -39,8 +39,10 @@ namespace p4_2_714220035
 
             //constructor
             Console.WriteLine("Constructor:");
-            Sosis suka = new Sosis { nama_makanan = "Sosis Indomaret", harga = 10000, rasa = "Gurih Pedas" };
-            Console.WriteLine(suka.nama_makanan,suka.harga,suka.rasa);
+            Sosis suka = new Sosis 
+            { nama_makanan = "Sosis Indomaret", harga = 10000, rasa = 
+            "Gurih Pedas" };
+            Console.WriteLine(suka.nama_makanan);
             Console.WriteLine(suka.harga);
             Console.WriteLine(suka.rasa);
            

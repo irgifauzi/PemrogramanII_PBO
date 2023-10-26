@@ -22,7 +22,7 @@ namespace p4_2_714220035
         public override void Makanan()
         {
             //makanan ringan....
-            Console.WriteLine("Chitato........");
+            Console.WriteLine("Chitato..........");
         }
      }
      class Silver_Queen : Indomaret
