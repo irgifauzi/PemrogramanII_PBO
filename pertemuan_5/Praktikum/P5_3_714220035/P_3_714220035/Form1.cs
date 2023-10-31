@@ -46,7 +46,7 @@ namespace P_3_714220035
             }
                       
             MessageBox.Show(
-                "Merk HP: " + txtMerkHP.Text +
+                 "Merk HP: " + txtMerkHP.Text +
                 "\nSistem Operasi : " + os + 
                 "\nStatus perbaikan : " + status,
                 "Informasi Service HP",
@@ -54,7 +54,7 @@ namespace P_3_714220035
         }
 
         private void btnKeluar_Click(object sender, EventArgs e)
-        {
+        {           
             this.Close();
         }
     }

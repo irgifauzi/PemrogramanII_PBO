@@ -9,3 +9,14 @@ C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\P5_2_71422003
 C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.csproj.CoreCompileInputs.cache
 C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.exe
 C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.pdb
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\bin\Debug\P5_2_714220035.exe.config
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\bin\Debug\P5_2_714220035.exe
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\bin\Debug\P5_2_714220035.pdb
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.csproj.AssemblyReference.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.ChildForm.resources
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.ParentForm.resources
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.Properties.Resources.resources
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.csproj.GenerateResource.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.csproj.CoreCompileInputs.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.exe
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_2_714220035\P5_2_714220035\obj\Debug\P5_2_714220035.pdb

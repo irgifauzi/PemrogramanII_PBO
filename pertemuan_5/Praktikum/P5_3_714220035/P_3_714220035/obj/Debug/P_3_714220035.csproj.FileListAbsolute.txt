@@ -13,3 +13,13 @@ C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\P5_3_71422003
 C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.csproj.CoreCompileInputs.cache
 C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.exe
 C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.pdb
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\bin\Debug\P_3_714220035.exe.config
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\bin\Debug\P_3_714220035.exe
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\bin\Debug\P_3_714220035.pdb
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.csproj.AssemblyReference.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.Form1.resources
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.Properties.Resources.resources
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.csproj.GenerateResource.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.csproj.CoreCompileInputs.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.exe
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\pertemuan_5\Praktikum\P5_3_714220035\P_3_714220035\obj\Debug\P_3_714220035.pdb
