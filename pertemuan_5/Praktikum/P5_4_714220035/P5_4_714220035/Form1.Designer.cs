@@ -106,7 +106,6 @@
             this.txtKelamin.Name = "txtKelamin";
             this.txtKelamin.Size = new System.Drawing.Size(236, 34);
             this.txtKelamin.TabIndex = 4;
-            this.txtKelamin.Text = "--Pilih Jenis Kelamin--";
             // 
             // txtTanggalLahir
             // 
