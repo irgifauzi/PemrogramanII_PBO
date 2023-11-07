@@ -44,7 +44,7 @@
             this.OutputLabel.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OutputLabel.Location = new System.Drawing.Point(0, 0);
             this.OutputLabel.Name = "OutputLabel";
-            this.OutputLabel.Size = new System.Drawing.Size(287, 32);
+            this.OutputLabel.Size = new System.Drawing.Size(266, 32);
             this.OutputLabel.TabIndex = 0;
             this.OutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -61,7 +61,7 @@
             // ExitButton
             // 
             this.ExitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ExitButton.Location = new System.Drawing.Point(157, 56);
+            this.ExitButton.Location = new System.Drawing.Point(136, 56);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(96, 33);
             this.ExitButton.TabIndex = 2;
@@ -75,9 +75,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.OutputGroupBox.Controls.Add(this.TimeOption);
             this.OutputGroupBox.Controls.Add(this.DateOption);
-            this.OutputGroupBox.Location = new System.Drawing.Point(24, 119);
+            this.OutputGroupBox.Location = new System.Drawing.Point(24, 111);
             this.OutputGroupBox.Name = "OutputGroupBox";
-            this.OutputGroupBox.Size = new System.Drawing.Size(239, 132);
+            this.OutputGroupBox.Size = new System.Drawing.Size(218, 132);
             this.OutputGroupBox.TabIndex = 3;
             this.OutputGroupBox.TabStop = false;
             this.OutputGroupBox.Text = "Choose Output";
@@ -86,7 +86,7 @@
             // TimeOption
             // 
             this.TimeOption.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.TimeOption.Location = new System.Drawing.Point(21, 74);
+            this.TimeOption.Location = new System.Drawing.Point(11, 74);
             this.TimeOption.Name = "TimeOption";
             this.TimeOption.Size = new System.Drawing.Size(197, 30);
             this.TimeOption.TabIndex = 1;
@@ -98,7 +98,7 @@
             // DateOption
             // 
             this.DateOption.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.DateOption.Location = new System.Drawing.Point(21, 28);
+            this.DateOption.Location = new System.Drawing.Point(11, 28);
             this.DateOption.Name = "DateOption";
             this.DateOption.Size = new System.Drawing.Size(197, 24);
             this.DateOption.TabIndex = 0;
@@ -111,7 +111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(287, 263);
+            this.ClientSize = new System.Drawing.Size(266, 255);
             this.Controls.Add(this.OutputGroupBox);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.DisplayButton);
