@@ -20,7 +20,7 @@ namespace P6_4_714220035
 
         private void txtNama_Leave(object sender, EventArgs e)
         {
-            if (txtNama.Text == "")
+            if (txtNama.Text =="")
             {
 
                 epWarning.SetError(txtNama, "Nama tidak boleh kosong !");
