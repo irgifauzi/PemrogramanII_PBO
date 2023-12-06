@@ -61,7 +61,7 @@ namespace P7_1_714220035
 
         private void rbSenin_CheckedChanged(object sender, EventArgs e)
         {
-            if (rbSenin.Checked)
+            if (rbSenin.Checked == false)
             {
                 cbKuliah.Enabled= true; cbKuliah.Checked = true;
                 cbTraveling.Enabled = false; cbTraveling.Checked = false;
@@ -71,7 +71,7 @@ namespace P7_1_714220035
         }
 
         private void rbMinggu_CheckedChanged(object sender, EventArgs e)
-        {
+        {   
             if (rbMinggu.Checked)
             {
                 cbKuliah.Enabled = false;
@@ -89,27 +89,22 @@ namespace P7_1_714220035
 
         private void buttonReset_Click(object sender, EventArgs e)
         {
-            // textBoxNama.Text = null;
-            //textBoxProdi.Text = null;
-            //textBoxKelas.Text = null;
+        
 
-            foreach (Control control in this.Controls)
+            foreach (Control control in Controls)
             {
                 if (control is TextBox)
 
                     ((TextBox)control).Text = string.Empty;
                 else if (control is RadioButton)
-
                     ((RadioButton)control).Checked = false;
-                else if (control is RadioButton)
-
-                    ((RadioButton)control).Checked = false;
+                else if (control is CheckBox)
+                    ((CheckBox)control).Checked = false;
                 /*else if (control is ComboBox)
-
-                        ((ComboBox)control).SelectedIndex = -1;*/
+                    ((ComboBox)control).SelectedIndex = -1;*/
             }
-            this.Size = new Size(400, 220);
-        
+            this.Size = new Size(404, 263);
+
 
         }
 
