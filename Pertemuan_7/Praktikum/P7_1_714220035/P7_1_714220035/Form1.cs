@@ -37,9 +37,9 @@ namespace P7_1_714220035
                 errorMessage += "Prodi Belum Di isi\n";
             }
             else if (!Regex.IsMatch(textBoxProdi.Text, @"^^[A-Za-z0-9]+-[A-Za-z0-9]+$"))
-            { 
+            {
                 errorMessage += "Prodi hapus berformat [Strata]-[prodi]\n";
-        
+
             }
             if (string.IsNullOrWhiteSpace(textBoxKelas.Text))
             {
@@ -63,15 +63,15 @@ namespace P7_1_714220035
         {
             if (rbSenin.Checked == false)
             {
-                cbKuliah.Enabled= true; cbKuliah.Checked = true;
+                cbKuliah.Enabled = true; cbKuliah.Checked = true;
                 cbTraveling.Enabled = false; cbTraveling.Checked = false;
-                cbTidur.Enabled=true; cbTidur.Checked = false;
+                cbTidur.Enabled = true; cbTidur.Checked = false;
 
             }
         }
 
         private void rbMinggu_CheckedChanged(object sender, EventArgs e)
-        {   
+        {
             if (rbMinggu.Checked)
             {
                 cbKuliah.Enabled = false;
@@ -89,7 +89,7 @@ namespace P7_1_714220035
 
         private void buttonReset_Click(object sender, EventArgs e)
         {
-        
+
 
             foreach (Control control in Controls)
             {
@@ -111,71 +111,49 @@ namespace P7_1_714220035
         private void buttonPrint_Click(object sender, EventArgs e)
         {
             string errorMessage = "";
+            string checkbox1 = "";
 
-            if (string.IsNullOrWhiteSpace(textBoxNama.Text))
+            if (!rbSenin.Checked && !rbMinggu.Checked)
             {
-                errorMessage += "Nama harus di isi\n";
+                errorMessage += "Pilih hari\n";
             }
 
-            if (string.IsNullOrWhiteSpace(textBoxProdi.Text))
+            if (!cbKuliah.Checked && !cbTraveling.Checked && !cbTidur.Checked)
             {
-                errorMessage += "Prodi harus di isi\n";
+                errorMessage += "Harus memilih setidaknya satu kegiatan\n";
             }
-
-            if (string.IsNullOrWhiteSpace(textBoxKelas.Text))
-            {
-                errorMessage += "Kelas harus di isi\n";
-            }
-
-            if (!Regex.IsMatch(textBoxProdi.Text, @"^[A-Za-z0-9]+-[A-Za-z0-9]+$"))
-            {
-                errorMessage += "Prodi harus berformat [Strata-Prodi]\n";
-            }
-
-            string HariSantai = rbSenin.Checked ? "Senin" : "Minggu";
-            string AktivitasNanti = "";
 
             if (cbKuliah.Checked)
             {
-                AktivitasNanti += "Kuliah, ";
-               
+                checkbox1 += "Kuliah ";
             }
-
             if (cbTraveling.Checked)
             {
-                AktivitasNanti += "Traveling, ";
-           
+                checkbox1 += "Traveling ";
             }
-
             if (cbTidur.Checked)
             {
-                AktivitasNanti += "Tidur, ";
-           
-
-            }
-
-            if (AktivitasNanti.Length > 0)
-            {
-                AktivitasNanti = AktivitasNanti.TrimEnd(' ', ',');
+                checkbox1 += "Tidur ";
             }
 
             if (string.IsNullOrEmpty(errorMessage))
             {
-                string infoMessage = $"Nama: {textBoxNama.Text}\nProdi: {textBoxProdi.Text}\nKelas: {textBoxKelas.Text}\nHari Yang Akan dilakukan: {HariSantai}\nAktivitas: {AktivitasNanti}";
+                string pesan = "Nama: " + textBoxNama.Text + "\n" +
+                               "Prodi: " + textBoxProdi.Text + "\n" +
+                               "Kelas: " + textBoxKelas.Text + "\n" +
+                               "==============\n" +
+                               "Hari: " + (rbSenin.Checked ? "Senin" : (rbMinggu.Checked ? "Minggu" : "")) + "\n" +
+                               "Kegiatan: " + checkbox1 + "\n";
 
-                MessageBox.Show
-                    (infoMessage,
-                    "Informasi Data Cetak",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(pesan, "Informasi Pendaftaran", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show
-                   (errorMessage,
-                    "Informasi Data Cetak",
+                MessageBox.Show(errorMessage, "Informasi Data Kuliah",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
         }
     }
 }
+
