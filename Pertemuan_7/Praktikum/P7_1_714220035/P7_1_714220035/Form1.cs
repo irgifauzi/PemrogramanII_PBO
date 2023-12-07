@@ -141,7 +141,7 @@ namespace P7_1_714220035
                 string pesan = "Nama: " + textBoxNama.Text + "\n" +
                                "Prodi: " + textBoxProdi.Text + "\n" +
                                "Kelas: " + textBoxKelas.Text + "\n" +
-                               "==============\n" +
+                               "=======\n" +
                                "Hari: " + (rbSenin.Checked ? "Senin" : (rbMinggu.Checked ? "Minggu" : "")) + "\n" +
                                "Kegiatan: " + checkbox1 + "\n";
 
@@ -151,6 +151,9 @@ namespace P7_1_714220035
             {
                 MessageBox.Show(errorMessage, "Informasi Data Kuliah",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+
+                //ccccccc/////
             }
 
         }
