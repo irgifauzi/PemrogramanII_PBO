@@ -1,0 +1,10 @@
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\bin\Debug\P7_1_714220035.exe.config
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\bin\Debug\P7_1_714220035.exe
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\bin\Debug\P7_1_714220035.pdb
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\obj\Debug\P7_1_714220035.csproj.AssemblyReference.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\obj\Debug\P7_1_714220035.Form1.resources
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\obj\Debug\P7_1_714220035.Properties.Resources.resources
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\obj\Debug\P7_1_714220035.csproj.GenerateResource.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\obj\Debug\P7_1_714220035.csproj.CoreCompileInputs.cache
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\obj\Debug\P7_1_714220035.exe
+C:\Users\Irgi Achmad Fauzi\Documents\PemrogramanII_PBO\Pertemuan_7\Praktikum\P7_1_714220035\P7_1_714220035\obj\Debug\P7_1_714220035.pdb
