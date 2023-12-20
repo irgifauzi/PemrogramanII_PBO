@@ -23,6 +23,15 @@ namespace P10_714220035
             //Query DB Get MGS
             DataMahasiswa.DataSource = koneksi.ShowData("SELECT * FROM t_mahasiswa");
 
+            //Query DB Get MGS
+            DataMahasiswa.DataSource = koneksi.ShowData("SELECT * FROM t_mahasiswa");
+            DataMahasiswa.Columns[0].HeaderText = "NPM";
+            DataMahasiswa.Columns[1].HeaderText = "Nama";
+            DataMahasiswa.Columns[2].HeaderText = "Angkaran";
+            DataMahasiswa.Columns[3].HeaderText = "Alamat";
+            DataMahasiswa.Columns[4].HeaderText = "Email";
+            DataMahasiswa.Columns[5].HeaderText = "No Hp";
+
         }
         public Form1()
         {
