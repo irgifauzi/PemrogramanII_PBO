@@ -20,6 +20,7 @@ namespace P10_714220035.view
         public FormTransaksiBarang()
         {
             InitializeComponent();
+           
         }
         Koneksi koneksi = new Koneksi();
         M_transaksi_barang m_transaksi_barang = new M_transaksi_barang();
@@ -97,9 +98,9 @@ namespace P10_714220035.view
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
-            if (cbIdBarang.Text == "" || tbBarang.Text == "" || tbHarga.Text == "" || tbQuantity.Text == "" || tbTotal.Text == "")
+            if (cbIdBarang.Text == "" || tbBarang.Text == "" || tbHarga.Text == "" || string.IsNullOrEmpty(tbQuantity.Text) || !tbQuantity.Text.All(char.IsDigit) || tbTotal.Text == "")
             {
-                MessageBox.Show("Data tidak boleh kosong", "Peringatan",
+                MessageBox.Show("Data tidak boleh kosong dan salah", "Peringatan",
                 MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
@@ -132,9 +133,9 @@ namespace P10_714220035.view
         private void btnUbah_Click(object sender, EventArgs e)
         {
 
-            if (cbIdBarang.Text == "" || tbBarang.Text == "" || tbHarga.Text == "" || tbQuantity.Text == "" || tbTotal.Text == "")
+            if (cbIdBarang.Text == "" || tbBarang.Text == "" || tbHarga.Text == "" || string.IsNullOrEmpty(tbQuantity.Text) || !tbQuantity.Text.All(char.IsDigit) || tbTotal.Text == "")
             {
-                MessageBox.Show("Data tidak boleh kosong", "Peringatan",
+                MessageBox.Show("Data tidak boleh kosong dan salah", "Peringatan",
                 MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else

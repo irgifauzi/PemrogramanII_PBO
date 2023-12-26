@@ -62,9 +62,9 @@ namespace P10_714220035.view
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
-            if (tbbarang.Text == "" || tbharga.Text == "")
+            if (string.IsNullOrEmpty(tbbarang.Text) || !tbbarang.Text.All(char.IsLetter) || string.IsNullOrEmpty(tbharga.Text) || !tbharga.Text.All(char.IsDigit))
             {
-                MessageBox.Show("Data tidak boleh kosong", "Peringatan",
+                MessageBox.Show("Data tidak boleh kosong dan salah", "Peringatan",
                 MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
@@ -90,7 +90,7 @@ namespace P10_714220035.view
 
         private void btnUbah_Click(object sender, EventArgs e)
         {
-            if (tbbarang.Text  == "" || tbharga.Text == "")
+            if (string.IsNullOrEmpty(tbbarang.Text) || !tbbarang.Text.All(char.IsLetter) || string.IsNullOrEmpty(tbharga.Text) || !tbharga.Text.All(char.IsDigit))
             {
                 MessageBox.Show("Data tidak boleh kosong", "Peringatan",
                 MessageBoxButtons.OK, MessageBoxIcon.Warning);
