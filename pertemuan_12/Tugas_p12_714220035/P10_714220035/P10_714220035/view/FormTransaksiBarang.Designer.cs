@@ -146,6 +146,7 @@
             // 
             // cbIdBarang
             // 
+            this.cbIdBarang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbIdBarang.FormattingEnabled = true;
             this.cbIdBarang.Location = new System.Drawing.Point(18, 20);
             this.cbIdBarang.Name = "cbIdBarang";
